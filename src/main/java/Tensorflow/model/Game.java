@@ -8,7 +8,7 @@ public class Game extends EntityBase{
 
 
 
-    private int     score;
+
     private boolean isActive;
     private String  seq;
 
@@ -16,13 +16,7 @@ public class Game extends EntityBase{
     }
 
 
-    public int getScore() {
-        return score;
-    }
 
-    public void setScore(int aScore) {
-        score = aScore;
-    }
 
 
     public boolean isActive() {

@@ -48,7 +48,7 @@ public class ControllerGames {
         String gameId = "";
         Game game = new Game();
         game.setActive(true);
-        game.setScore(score);
+
 
 
         repoGame.save(game);
@@ -66,7 +66,7 @@ public class ControllerGames {
         String gameId = "";
         Game game = new Game();
         game.setActive(true);
-        game.setScore(score);
+
         game.setSeq(createNewSeq(size.get()));
 
         repoGame.save(game);

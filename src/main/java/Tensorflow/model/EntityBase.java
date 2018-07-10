@@ -27,8 +27,7 @@ public abstract class EntityBase {
     @CreatedDate
     private Instant dateStart = Instant.now();
 
-    @LastModifiedDate
-    private Instant dateEnd =  Instant.now();
+
 
     @JsonIgnore
     @CreatedBy
@@ -70,13 +69,7 @@ public abstract class EntityBase {
         this.dateStart = dateStart;
     }
 
-    public Instant getDateEnd() {
-        return dateEnd;
-    }
 
-    public void setDateEnd(Instant dateEnd) {
-        this.dateEnd = dateEnd;
-    }
 
     public void validate() {
         return;
